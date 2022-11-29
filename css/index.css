@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin: 0 auto;
+}
+.header {
+    position: absolute;
+    width: 100%;
+    top: 30px;
+}
+.header__list{
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+    font-family: "Raleway";
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.dermo:hover{
+    transition: border-bottom 1s;
+    border-bottom: solid;
+}
+
+.dermo4:hover{
+    transition: border-bottom 1s;
+    border-bottom: solid;
+}
+
+.dermo3:hover{
+    transition: border-bottom 1s;
+    border-bottom: solid;
+}
+.dermo2:hover{
+    transition: border-bottom 1s;
+    
+    border-bottom: solid;
+}
+
+.dermo1:hover{
+    transition: border-bottom 1s;
+    
+    border-bottom: solid;
+}
+body {
+    background: #242B33;
+    color: white;
+}
+
+li {
+    margin-left: 40px;
+}
+
+
+.container {
+    max-width: 1234px;
+    margin: 0 auto;
+}
+
+.hero{
+    padding-top: 200px;
+    background: url(../img/hero/backgoundcars123.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.hero__title {
+    max-width: 556px;
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Raleway";
+}
+.hero__img {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.hero__bottom {
+    display: flex;
+    justify-content: center;
+ }
+.hero__contact {
+    margin: 0 50px;
+    font-size: 18px;
+    font-family: "Raleway";
+    display: flex;
+    align-items: center;
+ }
+
+.hero__address--icon {
+     margin-right: 15px;
+     right: 0;
+}
+.hero__phone--icon {
+    margin-right: 15px;
+}
+
+.features {
+    position: absolute;
+    right: 0;
+}
+.features__title{
+    font-weight: 400;
+}
+
+.features__content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.features__item {
+    width: 300px;
+    text-align: center;
+    margin-right: 0 35px;
+    margin-top: 150px;
+}
+
+.rooms {
+    margin-top: 120px;
+}
+
+.room__title{
+    color: #d4c17f;
+    font-size: 36px;
+    
+}
+.room__name-position {
+    font-family: "Roboto";
+    color: black;
+    font-weight: 300px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+.room__name--flex{
+    font-family: "Raleway";
+    font-weight: 300px;
+    color: black;
+    font-size: 24px;
+    bottom: 15px;
+    left: 15px;
+
+}
+.room__title--margin{
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: -50px;
+    margin-left: 20px;
+
+}
+.room__item--position{
+    position: relative;
+
+   
+}
+.room__item--flex{
+    background: url(../img/cars/02-ss300p-3i4-front-1567937037.jpg) center;
+    background-size: cover;
+    width: 535px;
+    height: 320px;
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
+    box-sizing: border-box;
+
+
+}
+.room__title--margin{
+    display: flex;
+    
+}
+.room__sector {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.room__item--position,
+.room__item--flex,
+.room__item--margin {
+    margin-top: 1px;
+}
+.map{
+    display:flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.mestopolojenie{
+    font-weight: 400px;
+    margin-left: 250px;
+    margin-top: 70px;
+    font-size: 40px;
+    color:#d4c17f;
+    font-family:  "Playfair Display";
+}
+.parallelogram{
+    position: absolute;
+    margin-left: -8px;
+    margin-top: 2000px;
+    width: 100%;
+    height: 400px;
+    background: #000000;
+ }
+ .parallelogram{
+   position: absolute;
+   margin-left: -8px;
+   margin-top: 2000px;
+   width: 100%;
+   height: 400px;
+   background: #c90f0f;
+}
+ 

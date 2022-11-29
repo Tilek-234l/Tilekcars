@@ -1,0 +1,14 @@
+.rooms {
+    margin-top: 120px;
+}
+
+.rooms__title{
+    color: #d4c17f;
+    font-size: 36px;
+}
+
+.rooms__name {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 24px;
+}
